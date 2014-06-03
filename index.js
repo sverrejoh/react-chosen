@@ -1,4 +1,5 @@
 var $ = require("jquery");
+var React = require("React");
 
 var Chosen = React.createClass({
   displayName: 'Chosen',
