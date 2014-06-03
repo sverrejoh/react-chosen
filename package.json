@@ -1,0 +1,22 @@
+{
+  "name": "react-chosen",
+  "version": "0.0.0",
+  "description": "React wrapper for Chosen jQuery.",
+  "main": "react-chosen.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sverrejoh/react-chosen"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sverrejoh/react-chosen/issues"
+  },
+  "homepage": "https://github.com/sverrejoh/react-chosen"
+}
