@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "author": "chenglou <chenglou92@gmail.com>",
   "description": "React wrapper for Chosen jQuery.",
-  "main": "react-chosen.js",
+  "main": "build/react-chosen.js",
   "ignore": [
     "**/.*",
     "node_modules",
