@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/browserify/bin/cmd.js index.js --standalone Chosen -o react-chosen.js",
+    "minify:": "./node_modules/uglify-js/bin/uglifyjs react-chosen.js -o react-chosen.min.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/sverrejoh/react-chosen/issues"
   },
-  "homepage": "https://github.com/sverrejoh/react-chosen"
+  "homepage": "https://github.com/sverrejoh/react-chosen",
+  "devDependencies": {
+    "browserify": "^4.1.8",
+    "jquery": "^2.1.1",
+    "uglify-js": "^2.4.13"
+  },
+  "dependencies": {
+  }
 }

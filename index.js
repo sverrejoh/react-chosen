@@ -1,5 +1,6 @@
-var Chosen;
-Chosen = React.createClass({
+var $ = require("jquery");
+
+var Chosen = React.createClass({
   displayName: 'Chosen',
 
   componentDidUpdate: function() {
